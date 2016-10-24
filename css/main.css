@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'CharriotDeluxe';
+    src: url('../fonts/2BF87E_0_0.eot');
+    src: url('../fonts/2BF87E_0_0.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/2BF87E_0_0.woff') format('woff'),
+         url('../fonts/2BF87E_0_0.ttf') format('truetype');
+}
+
+html,
+body {
+    background: #111;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    text-align: center;
+    cursor:url(../imgs/pointer.png), pointer;
+}
+
+canvas {
+    display: block;
+    margin: 50px auto 20px auto;
+    border-style: solid;
+    border-width: 10px;
+    background: #000;
+    border-left-color: #99B4E1;
+    border-top-color: #99B4E1;
+    border-right-color: #4A5B89;
+    border-bottom-color: #4A5B89;
+}
+
+p {
+    font-family: CharriotDeluxe;
+    padding: 10px;
+    margin: 20px auto 10px auto;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    background: #000;
+    border-left-color: #99B4E1;
+    border-top-color: #99B4E1;
+    border-right-color: #4A5B89;
+    border-bottom-color: #4A5B89;
+    color: white;
+    font-size: 0.8em;
+}
+
+button {
+    margin: 0 auto;
+    outline-style: none;
+    background: #8279BA;
+    border-style: solid;
+    border-width: 2px;
+    border-left-color: #99B4E1;
+    border-top-color: #99B4E1;
+    border-right-color: #4A5B89;
+    border-bottom-color: #4A5B89;
+    font-family: CharriotDeluxe;
+    color: #D4CEFE;
+    font-size: 15px;
+    letter-spacing: -1px;
+    cursor:url(../imgs/pointer.png), pointer;
+}
